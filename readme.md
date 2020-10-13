@@ -54,3 +54,19 @@ Date:   Tue Oct 13 15:16:28 2020 +0200
 
     I did add 2 files to repository
 dci@dci-Aspire-A515-55:~/Desktop/extratask$ 
+
+
+ci@dci-Aspire-A515-55:~/Desktop/extratask$ code .
+dci@dci-Aspire-A515-55:~/Desktop/extratask$ git add readme.md
+dci@dci-Aspire-A515-55:~/Desktop/extratask$ git commit
+[master f166127] changes to readme.md
+ 1 file changed, 56 insertions(+)
+ create mode 100644 readme.md
+dci@dci-Aspire-A515-55:~/Desktop/extratask$ git checkout -b Fixmovies
+Switched to a new branch 'Fixmovies'
+dci@dci-Aspire-A515-55:~/Desktop/extratask$ git checkout
+dci@dci-Aspire-A515-55:~/Desktop/extratask$ git branch
+* Fixmovies
+  master
+dci@dci-Aspire-A515-55:~/Desktop/extratask$ code .
+dci@dci-Aspire-A515-55:~/Desktop/extratask$ 
