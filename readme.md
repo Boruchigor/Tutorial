@@ -152,3 +152,18 @@ Date:   Tue Oct 13 15:16:28 2020 +0200
     I did add 2 files to repository
 dci@dci-Aspire-A515-55:~/Desktop/extratask$ 
 
+dci@dci-Aspire-A515-55:~/Desktop/extratask$ code .
+dci@dci-Aspire-A515-55:~/Desktop/extratask$ git commit
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   readme.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+dci@dci-Aspire-A515-55:~/Desktop/extratask$ git add readme.md
+dci@dci-Aspire-A515-55:~/Desktop/extratask$ git commit
+[master d71a398] added changes to readme.md
+ 1 file changed, 82 insertions(+)
+dci@dci-Aspire-A515-55:~/Desktop/extratask$ code .
+dci@dci-Aspire-A515-55:~/Desktop/extratask$ git add books.md; git add movies.md; git add readme.md; git add otherbooks.md
