@@ -11,4 +11,5 @@
 
 ---
 
-Further books can be found at otherbooks.md
+Further books can be found at [otherbooks](otherbooks.md)
+
