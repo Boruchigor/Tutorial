@@ -70,3 +70,85 @@ dci@dci-Aspire-A515-55:~/Desktop/extratask$ git branch
   master
 dci@dci-Aspire-A515-55:~/Desktop/extratask$ code .
 dci@dci-Aspire-A515-55:~/Desktop/extratask$ 
+dci@dci-Aspire-A515-55:~/Desktop/extratask$ git branch master
+fatal: A branch named 'master' already exists.
+dci@dci-Aspire-A515-55:~/Desktop/extratask$ git checkout master
+#Switched to branch 'master'
+dci@dci-Aspire-A515-55:~/Desktop/extratask$ git branch
+  Fixmovies
+* master
+dci@dci-Aspire-A515-55:~/Desktop/extratask$ code .
+dci@dci-Aspire-A515-55:~/Desktop/extratask$ git merge Fixmovies
+Updating f166127..c5febb5
+Fast-forward
+ books.md  |  1 +
+ movies.md |  7 ++++++-
+ readme.md | 16 ++++++++++++++++
+ 3 files changed, 23 insertions(+), 1 deletion(-)
+dci@dci-Aspire-A515-55:~/Desktop/extratask$ git commit
+On branch master
+nothing to commit, working tree clean
+dci@dci-Aspire-A515-55:~/Desktop/extratask$ code .
+dci@dci-Aspire-A515-55:~/Desktop/extratask$ touch otherbooks.md
+dci@dci-Aspire-A515-55:~/Desktop/extratask$ code .
+dci@dci-Aspire-A515-55:~/Desktop/extratask$ git add otherbooks.md
+dci@dci-Aspire-A515-55:~/Desktop/extratask$ git log
+commit c5febb5ab74b58f117efe64e9bf063fb874a21fa (HEAD -> master, Fixmovies)
+Author: Boruchigor <boruchigor@gmail.com>
+Date:   Tue Oct 13 15:45:51 2020 +0200
+
+    changes to all files
+
+commit f166127ba84cedffb936c4d6b0715104f3ae948d
+Author: Boruchigor <boruchigor@gmail.com>
+Date:   Tue Oct 13 15:31:32 2020 +0200
+
+    changes to readme.md
+
+commit 7dc40d5b540204641c24638db30201e9fd8710b7
+Author: Boruchigor <boruchigor@gmail.com>
+Date:   Tue Oct 13 15:27:43 2020 +0200
+
+    I did make changes in MD files
+
+commit ccb3ff51e0a809fe83dcf7f4af8e68eea60248db
+Author: Boruchigor <boruchigor@gmail.com>
+Date:   Tue Oct 13 15:16:28 2020 +0200
+
+    I did add 2 files to repository
+dci@dci-Aspire-A515-55:~/Desktop/extratask$ git commit
+[master 4c1689a] added otherbooks
+ 1 file changed, 9 insertions(+)
+ create mode 100644 otherbooks.md
+dci@dci-Aspire-A515-55:~/Desktop/extratask$ git log
+commit 4c1689acbbc15c64981af67bef73bcba11f808a9 (HEAD -> master)
+Author: Boruchigor <boruchigor@gmail.com>
+Date:   Tue Oct 13 15:48:28 2020 +0200
+
+    added otherbooks
+
+commit c5febb5ab74b58f117efe64e9bf063fb874a21fa (Fixmovies)
+Author: Boruchigor <boruchigor@gmail.com>
+Date:   Tue Oct 13 15:45:51 2020 +0200
+
+    changes to all files
+
+commit f166127ba84cedffb936c4d6b0715104f3ae948d
+Author: Boruchigor <boruchigor@gmail.com>
+Date:   Tue Oct 13 15:31:32 2020 +0200
+
+    changes to readme.md
+
+commit 7dc40d5b540204641c24638db30201e9fd8710b7
+Author: Boruchigor <boruchigor@gmail.com>
+Date:   Tue Oct 13 15:27:43 2020 +0200
+
+    I did make changes in MD files
+
+commit ccb3ff51e0a809fe83dcf7f4af8e68eea60248db
+Author: Boruchigor <boruchigor@gmail.com>
+Date:   Tue Oct 13 15:16:28 2020 +0200
+
+    I did add 2 files to repository
+dci@dci-Aspire-A515-55:~/Desktop/extratask$ 
+
